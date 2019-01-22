@@ -8,7 +8,7 @@ class Contact extends Component{
         return(
             <div className="contact-body">
                 <Grid className="contact-grid">
-                    <Cell col={6}>
+                    <Cell className="contact-cv" col={6}>
                         <h2>Rakesh Phaiju</h2>
                         <img
                         src={logo}
@@ -28,15 +28,15 @@ class Contact extends Component{
                         
 
                     </Cell>
-                    <Cell col={6}>
+                    <Cell className="contact-info" col={6}>
                         <h2>Contact Info</h2>
                         <hr/>
 
                     <div className="contact-list">
                          <List>
                             <ListItem>
-                                <ListItemContent style ={{fontFamily:'Anton', fontSize:'25px' }}>
-                                <i className="fa fa-phone-square" aria-hidden="true"/>(358) 465657745</ListItemContent>
+                            <ListItemContent style ={{fontFamily:'Anton', fontSize:'25px' }}>
+                            <i className="fa fa-phone-square" aria-hidden="true"/>(358) 465657745</ListItemContent>
                             </ListItem>
                             <ListItem>
                             <ListItemContent style ={{fontFamily:'Anton', fontSize:'25px' }}>

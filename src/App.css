@@ -70,8 +70,8 @@
 
 .contact-body {
   margin: auto;
-  background: skyblue;
-  position: fixed;
+  background-color: skyblue;
+  position: relative;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -106,5 +106,22 @@
 .contact-list i {
   font-size: 66px;
   padding-right: 5rem;
+}
+
+@media only screen and (max-width: 768px){
+
+.contact-body{
+  background: none;
+}
+
+  .contact-cv{
+  width: 100%;
+}
+.contact-info{
+  width: 100%;
+}
+.contact-list{
+  font-size: 10px;
+}
 }
 
