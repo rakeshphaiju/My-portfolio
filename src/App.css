@@ -22,7 +22,7 @@
 .avatar-img{
   height: 250px;
   padding-top: 5em;
-  border-radius: 50%;
+  border-radius: 45%;
 }
 
 .banner-text{
@@ -60,7 +60,7 @@
 .social-links i{
   color: white;
   font-size: 5em;
-  padding: 8px;
+  padding: 5px;
 }
 
 .projects-grid{
@@ -112,6 +112,7 @@
 
 .contact-body{
   background: none;
+  
 }
 
   .contact-cv{
@@ -126,6 +127,34 @@
 }
 
 @media only screen and (max-width: 600px){
-  
+  .avatar-img{
+    height: 200px;
+    padding-top: 3em;
+  } 
+  .banner-text h1{
+    font-size: 30px;
+  }
+  .banner-text p{
+    font-size: 10px;
+  }
+
+  .social-links i {
+    font-size: 3em;
+    padding: 4px;
+  }
+  .projects-grid{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+  }
+  .contact-list i {
+    font-size: 30px;
+    padding-right: 2rem;
+  }
+  .contact-grid hr {
+    border-top: 3px dotted black;
+
+  }
+
 }
 

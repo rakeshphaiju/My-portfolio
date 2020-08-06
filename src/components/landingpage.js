@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Grid, Cell} from 'react-mdl';
-import logo from '../../src/components/my-pic.jpg';
+import logo from '../../src/components/avatar.png';
 
 
 class Landing extends Component{
@@ -18,7 +18,7 @@ class Landing extends Component{
                             <h1>Software Developer</h1>
                             <hr/>
 
-                        <p>HTML/CSS | Bootstrap | Javascript | React | Python | PHP | ASP.NET</p>
+                        <p> React | Redux | HTML/CSS | Javascript  | Python | PHP </p>
                     <div className="social-links">
                         {/*LinkedIn*/}
                         <a href="https://www.linkedin.com/in/rakesh-phaiju-34232bb6/" target="_blank" rel="noopener noreferrer"> 
