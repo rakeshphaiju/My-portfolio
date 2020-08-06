@@ -10,6 +10,7 @@ class Projects extends Component{
     toggleCategories(){
         if(this.state.activeTab === 0){
             return(
+                <div className="projects">
                 <div className="projects-grid">
                  {/* Project 1 */}
                  <Card shadow={5} style={{width: 'auto', margin: '10px'}}>
@@ -53,7 +54,8 @@ class Projects extends Component{
                     <CardMenu style={{color: '#fff'}}>
                     </CardMenu>
                 </Card>
-                
+                </div>
+                <div className="projects-grid">
                  {/* Project 4 */}
                 <Card shadow={5} style={{width: 'auto', margin: '10px'}}>
                     <CardTitle style={{color: 'black', height: '176px', background: 
@@ -84,6 +86,7 @@ class Projects extends Component{
                     </CardMenu>
                 </Card>
             
+                </div>
                 </div>
               )
         }else if(this.state.activeTab === 1){
