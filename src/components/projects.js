@@ -8,7 +8,7 @@ class Projects extends Component{
     }
 
     toggleCategories(){
-        if(this.state.activeTab == 0){
+        if(this.state.activeTab === 0){
             return(
                 <div className="projects-grid">
                 {/* Project 1 */}
@@ -57,7 +57,7 @@ class Projects extends Component{
             
                 </div>
               )
-        }else if(this.state.activeTab == 1){
+        }else if(this.state.activeTab === 1){
             return(
                 <div><h1>This is empty</h1></div>
             )

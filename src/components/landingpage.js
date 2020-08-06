@@ -21,15 +21,15 @@ class Landing extends Component{
                         <p>HTML/CSS | Bootstrap | Javascript | React | Python | PHP | ASP.NET</p>
                     <div className="social-links">
                         {/*LinkedIn*/}
-                        <a href="https://www.linkedin.com/in/rakesh-phaiju-34232bb6/" rel="nooperner noreferrer" target="_blank">
+                        <a href="https://www.linkedin.com/in/rakesh-phaiju-34232bb6/" target="_blank" rel="noopener noreferrer"> 
                             <i className="fab fa-linkedin " aria-hidden="true"></i>
                         </a>
                          {/*Github*/}
-                        <a href="https://github.com/rakeshphaiju" rel="nooperner noreferrer" target="_blank">
+                        <a href="https://github.com/rakeshphaiju" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-github "aria-hidden="true"></i>
                         </a>
                           {/*facebook*/}
-                          <a href="https://www.facebook.com/rakesh.phaiju.9" rel="nooperner noreferrer" target="_blank">
+                          <a href="https://www.facebook.com/rakesh.phaiju.9" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-facebook "aria-hidden="true"></i>
                         </a>
                     </div>

@@ -21,7 +21,7 @@ class Contact extends Component{
                         University of Applied Sciences, Oulu, Finland. Originally, i am from Nepal. Currently, 
                         i am looking for the internship or trainee position in any software development or 
                         web development field. You can also download my resume from
-                        <a href={resume} target='_blank'> here</a>
+                        <a href={resume} target='_blank' rel="noopener noreferrer"> here</a>
                         
             
                         </p>
