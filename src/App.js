@@ -11,12 +11,14 @@ class App extends Component {
       <Layout>
           <Header className="header-color" title="PORTFOLIO" scroll>
               <Navigation>
+                  <Link to="/">HOME</Link>
                   <Link to="/projects">PROJECTS</Link>
                   <Link to="/contact">CONTACT</Link>
               </Navigation>
           </Header>
           <Drawer title="PORTFOLIO">
               <Navigation>
+                <Link to="/">HOME</Link>
                 <Link to="/projects">PROJECTS</Link>
                 <Link to="/contact">CONTACT</Link>
               </Navigation>
