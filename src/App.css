@@ -10,8 +10,6 @@
   background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-  position: relative;
-  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -110,10 +108,6 @@
 
 @media only screen and (max-width: 1024px){
 
-.landing-grid{
-  position: absolute;
-} 
-
 .contact-body{
   background: none;
   
@@ -128,6 +122,7 @@
 .contact-list{
   font-size: 10px;
 }
+
 }
 
 @media only screen and (max-width: 600px){
@@ -160,5 +155,11 @@
 
   }
 
+}
+
+@media only screen and (min-width: 1500px){
+  .landing-grid{
+    position: absolute;
+  } 
 }
 
