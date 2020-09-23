@@ -16,9 +16,9 @@ class Contact extends Component {
               Final year information technology student who is able to work in
               challenging situations, self motivated and with a track record of
               successfully completing projects with teams of people from
-              different cultural backgrounds. Seeking an internship in reputed organisation in
-              frontend related projects to compliment my theoretical knowledge
-              and grow as a qualified frontend developer. You can also download
+              different cultural backgrounds. Seeking a position in reputed organisation in
+              software related projects to compliment my theoretical knowledge
+              and grow as a qualified full stack developer. You can also download
               my resume from
               <a href={resume} target="_blank" rel="noopener noreferrer">
                 {" "}
