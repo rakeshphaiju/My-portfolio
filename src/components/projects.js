@@ -21,7 +21,7 @@ class Projects extends Component{
                     </CardText>
                     <CardActions border>
                     <Button href="https://github.com/rakeshphaiju/rameshsainju" target='_blank' colored>Github</Button>
-                    <Button  href="https://ramesh-photography.herokuapp.com/" target='_blank' colored>Demo</Button>
+                    <Button  href="https://rameshsainju.netlify.app/" target='_blank' colored>Demo</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                     </CardMenu>
