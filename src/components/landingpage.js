@@ -18,7 +18,7 @@ class Landing extends Component{
                             <h1>Software Developer</h1>
                             <hr/>
 
-                        <p> React | Redux | HTML/CSS | Javascript  | Python | PHP </p>
+                        <p> Javascript  | Python | AWS | Kubernetes  </p>
                     <div className="social-links">
                         {/*LinkedIn*/}
                         <a href="https://www.linkedin.com/in/rakesh-phaiju-34232bb6/" target="_blank" rel="noopener noreferrer"> 
