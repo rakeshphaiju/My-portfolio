@@ -13,12 +13,7 @@ class Contact extends Component {
             <img src={logo} alt="avatar" style={{ height: "250px" }} />
 
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Final year information technology student who is able to work in
-              challenging situations, self motivated and with a track record of
-              successfully completing projects with teams of people from
-              different cultural backgrounds. Seeking a position in reputed organisation in
-              software related projects to compliment my theoretical knowledge
-              and grow as a qualified full stack developer. You can also download
+              Software engineer with over two years of experience in analysis, development and implementing software and cloud solutions for new and existing product in multinational company.You can also download
               my resume from
               <a href={resume} target="_blank" rel="noopener noreferrer">
                 {" "}
