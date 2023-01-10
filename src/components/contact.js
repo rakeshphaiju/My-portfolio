@@ -13,8 +13,9 @@ class Contact extends Component {
             <img src={logo} alt="avatar" style={{ height: "250px" }} />
 
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Software engineer with over two years of experience in analysis, development and implementing software and cloud solutions for new and existing product in multinational company.You can also download
-              my resume from
+              Software engineer with over two years of experience in analysis, development 
+              and implementing software and cloud solutions for new and existing product in 
+              multinational company.You can also download my resume from
               <a href={resume} target="_blank" rel="noopener noreferrer">
                 {" "}
                 here
